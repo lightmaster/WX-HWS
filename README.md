@@ -1,13 +1,22 @@
 Home Weather Station weather website template for WeeWX
 
-This repository contains the current version of Brian Underdown's Home Weather Station weather website template set. Brian's main website is https://weather34.com/homeweatherstation/index.html In January, 2019, Brian has asked others to distribute/maintain his code for other weather station software, and is only supporting Meteobridge/Meteobridge NANO-SD versions of the HWS template.
+This repository contains the current WeeWX version of Brian Underdown's Home Weather Station weather website template set. Brian's main website is https://weather34.com/homeweatherstation/index.html In January, 2019, Brian has asked others to distribute/maintain his code. 
 
 This version requires WeeWX software with the CRT extension for data feeds for the conditions from your personal weather station. weeWX is available at http://weewx.com
 
-This version is designed explicitly to harness the powerful WeeWX database to generate the weather data charts and statistical data. It is built on the current MB-UB40-FFT which is now maintained by Lightmaster (Meteobridge-Weather34-Template
-)
+This version is designed explicitly to harness the powerful WeeWX database to generate the weather data charts and statistical data. It is built on the current MB-UB40-FFT which is now maintained by Lightmaster (Meteobridge-Weather34-Template)
 
 If you are happy to use Weather Underground as a source of data for chart generation you are strongly recommended to use the Ken True CU-HWS version (https://github.com/ktrue/CU-HWS) as your first choice which can be configured out-of-the-box to be used with WeeWX.
+
+What's New in this Version WX-HWS-UB40-FFT
+
+    Built on the current Meteobridge Version MB-UB40-FFT and is visually identical
+    Latest design features
+    Harnesses the power of the WeeWX database to generate graphs ans statiscal data
+    Additional pop-up windows for statistical data
+    Introduces the concept of a WeeWX-api
+    Meteobridge to WeeWX variable look-up table
+
 Demo
 
 A live example of WX-HWS template can be seen at https://claydonsweather.org.uk
@@ -18,7 +27,7 @@ Setup
     Follw the instructions in 'charts statistics guide' to complete the required changes to WeeWX.
     Browse to http://your.website/easyweathersetup.php
     There is no initial password when the page prompts the first time -- just press LOGIN to enter the page.
-    IMPORTANT set a password in the screen for future use -- your browser can remember it. This will make future updates reasonably secure so only you can do the updates to the configuration.
+    IMPORTANT set a password in the screen for future use -- your browser can remember it. This will make future updates    reasonably secure so only you can do the updates to the configuration.
     Make setting entries in the easyweathersetup.php page and SAVE. The next time you run it, use the password you set in the step above.
     Repeat running easyweathersetup.php until the main screen appears as you like it.
 
@@ -50,7 +59,7 @@ Non-weeWX versions Available
 
     Davis WeatherLink version by Mats Ahlklo supports WL 2.0 details here http://pysselilivet.blogspot.com/2017/01/install-weather34-with-weatherlink.html
 
-    ATMOCOM Version for Ambient WS-2902 Osprey,Ventus W830, MiSol, ChiliTec, PanTech, Froggit WH3000, Ambient WS-8478 Falcon, Bresser,FOSHK HP-3500 series info here https://atmocom.com/Demo-weather-data
+    ATMOCOM Version for Ambient WS-2902 Osprey,Ventus W830, MiSol, ChiliTec, PanTech, Froggit WH3000, Ambient WS-8478 Falcon, Bresser, FOSHK HP-3500 series info here https://atmocom.com/Demo-weather-data
 
     Weather Display version by Wim van der Kuil Now Available via https://wd34.weather-template.com/. This version also now supports Cumulus, WeeWX and WeatherCat.
 
@@ -61,9 +70,9 @@ Apart from Brian Underdown without him, this template would never exist, I would
 
 Ken True for sharing files and who makes my job of maintaining the weeWX version so much easier.
 
-Thomas S. for his invaluable contribution in producing the Meteobridge lookup code to translate WeeWX database output.
+Thomas Sosio for his invaluable contribution in producing the Meteobridge lookup code to translate WeeWX database output.
 
-David M. for contributing technical knowledge and solutions to create the wxchart .tmpl files and alternative solutions for weather alerts.
+David Marshall for contributing technical knowledge and solutions to create the wxchart .tmpl files and alternative solutions for weather alerts.
 
 Taylormia for contributing his excellent setup example for instances where weeWX and server/template are remote to each other.
 
