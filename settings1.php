@@ -1,6 +1,6 @@
 <?php 
-$apikey = "aef5619cc72559ae65fcd0e6efa76091";
-$wuapikey = "8BXSCCCRTY123456789";
+$apikey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+$wuapikey = "yyyyyyyyyyyyyyyyyyyyyyyyyyy";
 $weatherflowID = "5153";
 $weatherflowoption   = "no";
 $weatherflowlightning = "no";
@@ -8,7 +8,7 @@ $weatherflowmapzoom   = "5";
 $id = "IBUCKING64";
 $purpleairID = "";
 $purpleairhardware   = "no";
-$metarapikey ="f3b57efab1b5a3202acb31a937";
+$metarapikey ="zzzzzzzzzzzzzzzzzzzzzzzzzzz";
 $TZ = "Europe/London";
 $UTC = "1";
 $lon = -0.987;
@@ -64,8 +64,8 @@ $positionlastmoduletitle   = "Moon Phase";
 $positionlastmodule   = "moonphase.php";
 $webcamurl   = "/var/www/pws/cam.jpg";
 
-$email    = "steepleian@gmail.com";
-$twitter   = "sclayweather";
+$email    = "someone@gmail.com";
+$twitter   = "sometwit";
 
 
 $theme1   = "dark";
@@ -90,5 +90,5 @@ $airport1dist   = "26";
 
 $defaultlanguage   = "en";
 $language    = "en";
-$password    = "B0j0v1ha";
+$password    = "";
 $flag   = "en";
