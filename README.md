@@ -1,4 +1,4 @@
-Home Weather Station weather website template for WeeWX
+# Home Weather Station weather website template for WeeWX
 
 This repository contains the current WeeWX version of Brian Underdown's Home Weather Station weather website template set. Brian's main website is https://weather34.com/homeweatherstation/index.html In January, 2019, Brian has asked others to distribute/maintain his code. 
 
@@ -8,39 +8,39 @@ This version is designed explicitly to harness the powerful WeeWX database to ge
 
 If you are happy to use Weather Underground as a source of data for chart generation you are strongly recommended to use the Ken True CU-HWS version (https://github.com/ktrue/CU-HWS) as your first choice which can be configured out-of-the-box to be used with WeeWX.
 
-What's New in this Version WX-HWS-UB40-FFT
+# What's New in this Version WX-HWS-UB40-FFT
 
-    Built on the current Meteobridge Version MB-UB40-FFT and is visually identical
-    Latest design features
-    Harnesses the power of the WeeWX database to generate graphs ans statiscal data
-    Additional pop-up windows for statistical data
-    Introduces the concept of a WeeWX-api
-    Meteobridge to WeeWX variable look-up table
+Built on the current Meteobridge Version MB-UB40-FFT and is visually identical
+Latest design features
+Harnesses the power of the WeeWX database to generate graphs ans statiscal data
+Additional pop-up windows for statistical data
+Introduces the concept of a WeeWX-api
+Meteobridge to WeeWX variable look-up table
 
-Demo
+# Demo
 
 A live example of WX-HWS template can be seen at https://claydonsweather.org.uk
 
-Setup
+# Setup
 
-    Follow the instructions in the quick setup guide to install the template.
-    Follw the instructions in 'charts statistics guide' to complete the required changes to WeeWX.
-    Browse to http://your.website/easyweathersetup.php
-    There is no initial password when the page prompts the first time -- just press LOGIN to enter the page.
-    IMPORTANT set a password in the screen for future use -- your browser can remember it. This will make future updates    reasonably secure so only you can do the updates to the configuration.
-    Make setting entries in the easyweathersetup.php page and SAVE. The next time you run it, use the password you set in the step above.
-    Repeat running easyweathersetup.php until the main screen appears as you like it.
+Follow the instructions in the quick setup guide to install the template.
+Follw the instructions in 'charts statistics guide' to complete the required changes to WeeWX.
+Browse to http://your.website/easyweathersetup.php
+There is no initial password when the page prompts the first time -- just press LOGIN to enter the page.
+IMPORTANT set a password in the screen for future use -- your browser can remember it. This will make future updates    reasonably secure so only you can do the updates to the configuration.
+Make setting entries in the easyweathersetup.php page and SAVE. The next time you run it, use the password you set in the step above.
+Repeat running easyweathersetup.php until the main screen appears as you like it.
 
-Diagnostics
+# Diagnostics
 
 A new utility diags.php was added to the distribution. It is useful for checking the installation of the WX-HWS template and showing (safely) the current settings.php/settings1.php file contents for debugging. Note: the entries for $password, $db_user, $db_pass are replaced with '********' to avoid unwanted disclosure of private information.
 
     run diags.php?show=info on your website to show the key info about the WX-HWS installation and required PHP function status
     run diags.php?show=settings on your website to safely show the current settings.php and settings1.php contents
 
-License
+# License
 
-Copyright (c) 2016-2018 by Brian Underdown (https://weather34.com)
+Copyright (c) 2016-2019 by Brian Underdown (https://weather34.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Template”), to deal in the Template without restriction, including without limitation the rights to, can use, can not copy without prior permission, can modify for personal use, can use and publish for personal use ,can not distribute without prior permission, can not sublicense without prior permission, and can not sell copies of the Template, and subject to the following conditions:
 
