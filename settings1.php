@@ -33,7 +33,7 @@ $rainunit  = "mm";
 $rainrate = "/h";
 $pressureunit  = "hPa";
 $livedataFormat = "WeeWX-CRT";
-$livedata   = "/var/www/pws/realtime.txt";
+$livedata   = "/var/www/pws/demodata/realtime.txt";
 
 $currentconditions   = "currentconditionsds.php";
 
