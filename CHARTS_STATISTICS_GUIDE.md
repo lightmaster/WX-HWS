@@ -1,4 +1,4 @@
-# HOW TO USE THE WeeWX ARCHIVE DATABASE TO GENERATE THE POP-UP CanvasJS CHARTS.
+# HOW TO USE THE WeeWX ARCHIVE DATABASE TO GENERATE THE POP-UP CHARTS AND STATISTICS
 
 * Please familiarise yourself with the location of your weewx.conf and default skins folder (Standard or for WeeWX 3.9.1 or later Seasons)
 * Open the skin.conf file and find the '[CheetahGenerator]' section. 
