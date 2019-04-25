@@ -103,7 +103,7 @@
 	$weather["actualhardware"]	   = $meteobridgeapi[42];
 	$weather["mbplatform"]	       = $meteobridgeapi[41];
 	$weather["uptime"]		       = $meteobridgeapi[81];//uptime in seconds
-	$weather["vpforecasttext"]	   = $meteobridgeapi1[1];//davis console forecast text
+	$weather["vpforecasttext"]	   = $meteobridgeapi[1];//davis console forecast text
 	$weather["temp_avgtoday"]=$meteobridgeapi[152];
 	$weather['wind_speed_avg30']=$meteobridgeapi[158];
 	//weather34 windrun
