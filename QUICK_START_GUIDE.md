@@ -30,7 +30,7 @@ This new version will require a clean install. Extract the .zip file into the ro
 Now restore permission settings to the root and set correct ownership for the files in the webserver root folder. Open terminal and enter the following commands:
 
 	sudo su
-	chown your_user_name:www-data - R /var/www/html/
+	chown your_user_name:www-data -R /var/www/html/
 	chmod 0775 -R /var/www/html/
 	
 You can now test that the template is working by opening it up in your browser. Initially you will see random demo data. Click on the menu button at the top-left corner and select settings. This will open up a web form in which you apply your own settings. Pay particular attention to the location of the realtime.txt file being generated on a loop cycle by weeWX. The suggested default location is “/var/www/html/realtime.txt”
