@@ -1,8 +1,8 @@
 # Home Weather Station weather website template for WeeWX
 
-This repository contains the current WeeWX version of Brian Underdown's Home Weather Station weather website template set. Brian's main website is https://weather34.com/homeweatherstation/index.html In January, 2019, Brian has asked others to distribute/maintain his code. 
+This repository contains the current WeeWX version of Brian Underdown's Home Weather Station weather website template set. Brian's main website is https://weather34.com/homeweatherstation/index.html In January, 2019, Brian asked others to distribute/maintain his code. 
 
-This version requires WeeWX software with the CRT extension for data feeds for the conditions from your personal weather station. weeWX is available at http://weewx.com
+This version requires WeeWX software with the CRT extension for data feeds for the conditions from your personal weather station. WeeWX is available at http://weewx.com
 
 This version is designed explicitly to harness the powerful WeeWX database to generate the weather data charts and statistical data. It is built on the current MB-UB40-FFT which is now maintained by Lightmaster (Meteobridge-Weather34-Template)
 
@@ -10,12 +10,17 @@ If you are happy to use Weather Underground as a source of data for chart genera
 
 # What's New in this Version WX-HWS-UB40-FFT
 
-Built on the current Meteobridge Version MB-UB40-FFT and is visually identical
-Latest design features
-Harnesses the power of the WeeWX database to generate graphs ans statiscal data
-Additional pop-up windows for statistical data
-Introduces the concept of a WeeWX-api
-Meteobridge to WeeWX variable look-up table
+Built on the current Meteobridge Version MB-UB40-FFT and is visually identical.
+
+Latest design features.
+
+Harnesses the power of the WeeWX database to generate graphs and statiscal data.
+
+Additional pop-up windows for statistical data.
+
+Introduces the concept of a WeeWX-api.
+
+Meteobridge to WeeWX variable look-up table.
 
 # Demo
 
